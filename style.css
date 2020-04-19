@@ -1,0 +1,646 @@
+* {
+   box-sizing: border-box;
+  
+}
+
+
+/* Header Section */
+
+
+
+.header {
+   position: relative;
+   width: 850px;
+   height: 300px;
+   background-color: white;
+   border: 1px solid lightgray;
+   margin: 20px auto;
+}
+
+.header-bg {
+position: relative;
+width: 849px;
+height: 250px;
+background-color: #4267B2;
+
+}
+
+.profile-image {
+width: 100px;
+height: 100px;
+border: 1px solid black;
+background-color: #4267B2;
+position: relative;
+top: -80px;
+left: 10px;
+}
+
+.page-name {
+   position: relative;
+   top: -170px;
+   left: 120px;
+   height: 90px;
+   width: 60%;
+}
+
+.page-name h1 {
+color: white;
+font-size: 20px;
+font-family: serif;
+font-weight: bold;
+}
+
+.website-name {
+   position: relative;
+   top: -250px;
+   left: 120px;
+   height: 90px;
+   width: 60%;
+}
+
+.website-name p {
+   color: white;
+   font-size: 15px;
+   font-family: serif;
+   font-weight: lighter;
+}
+
+.timeline-links button {
+   position: relative;
+   top: -310px;
+   left: 120px;
+   padding: 5px;
+   margin: 2.5%;
+   border: 1px solid white;
+   background-color: white;
+   font-size: 12px;
+   font-family: serif;
+   float: left;
+}
+
+.like-button button, .buttons button {
+   position: relative;
+   background-color: white;
+   border: 1px solid grey;
+   padding: 7px;
+   color: grey;
+   top: -355px;
+   left: -10px;
+   float: right;
+   font-size: 10px;
+   font-family: serif;
+}
+
+.like-button button {
+   float: left;
+   top: -356px;
+   left: 165px;
+}
+
+
+/*Beginning of the columns*/
+
+
+.container {
+   width: 850px;
+   height: 1100px;
+   background-color: white;
+   top: -850px;
+   margin: 20px auto;
+   
+}
+
+/* First left column*/
+
+
+.column:nth-child(1) {
+   width: 328px;
+   height: 150px;
+   border: 1px solid lightgray;
+   
+   
+   
+}
+   .name {
+   position: relative;
+   color: black;
+   border-top: 1px solid lightgray;
+   margin: 15px auto;
+   text-align: left ;
+}
+.about-name {
+   font-family: serif;
+   color: #4267B2;
+   font-size: smaller;
+   text-align: left;
+}
+
+.name p {
+   position: relative;
+   color:#4267B2 ;
+   font-family: serif;
+   
+}
+
+.website-button {
+   border-top: 1px solid lightgrey;
+}
+
+.website-button button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color:#4267B2;
+   font-weight: bold;
+   font-size: smaller;
+   font-family: serif;
+
+}
+
+/* First Right Column*/
+
+
+
+.column:nth-child(2) {
+   position: relative;
+   width: 512px;
+   height: 300px;
+   border: 1px solid lightgray;
+   top: -310px;
+   float: right;
+}
+
+.profile-pic {
+   position: relative;
+   width: 50px;
+   height: 50px;
+   background-color: #4267B2;
+   top: 15px;
+   left: 15px;
+   border: 1px solid black;
+}
+
+.cp-change-button  {
+   position: relative;
+   width: 300px;
+   height: 25px;
+   top: -45px;
+   left: 70px;
+   color: lightslategray;
+   font-family: serif;
+   font-size: 12px;
+
+}
+  
+.cp-change-button button  {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color: #4267B2;
+   font-family: serif;
+   font-size: 12px;
+   font-weight: bolder;
+  }
+
+
+.cover-photo {
+   position: relative;
+   width: 500px;
+   height: 190px;
+   background-color:#4267B2;
+   top: -20px;
+   left: 5px;
+}
+
+.social-buttons {
+   position: relative;
+   width: 510px;
+   height: 30px;
+   background-color: whitesmoke;
+   top: -13px;
+   border-top: 1px solid grey;
+}
+
+.social-buttons button {
+   position: relative;
+   background-color: whitesmoke;
+   border: 1px solid whitesmoke;
+   color:#4267B2 ;
+   font-family: serif;
+   top: 5px;
+}
+
+
+/* Second Left Column*/
+
+
+.column:nth-child(3) {
+   position: relative;
+   width: 328px;
+   height: 115px;
+   border: 1px solid lightgray;  
+   top: -145px ;
+   float: left;
+}
+
+.About {
+   position: relative;
+   width: 326px;
+   border-bottom: 1px solid slategrey;
+  }
+
+.About button {
+   position: relative;
+   width: 326px;
+   background-color: whitesmoke;
+   border: 1px solid white;
+   color:#4267B2 ;
+   font-family: serif;
+   border-bottom: 1px solid slategrey;
+   text-align: left;
+   }
+
+   
+.About li  {
+   position: relative;
+   list-style: none;
+   font-family: serif;
+   font-size: smaller;
+   color: slategrey;
+   left: -25px;
+   
+}
+
+.phone button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color:#4267B2 ;
+   font-family: serif;
+}
+
+
+/*Third Left Column*/
+
+
+.column:nth-child(4) {
+   position: relative;
+   width: 328px;
+   height: 356px;
+   border: 1px solid lightgray;  
+   top: -135px;
+   float: left;
+}
+
+.APPS {
+   position: relative;
+   border-bottom: 1px solid slategrey;
+   background-color: whitesmoke;
+   width: 325px;
+}
+
+.APPS button {
+   border: 1px solid whitesmoke;
+   color: #4267B2;
+   font-family: serif;
+}
+
+.Welcome {
+   position: relative;
+   background-color:white;
+   border-bottom: 1px solid lightgray;
+   width: 326px;
+   height: 100px;
+   top: 35px;
+}
+
+.Welcome h3 {
+   position: relative;
+   color: #4267B2;
+   font-size: small;
+   font-family: serif;
+   top: -45px;
+   left: 105px;
+}
+
+.FWB {
+   position: relative;
+   background-color:white;
+   border-bottom: 1px solid lightgray;
+   width: 326px;
+   height: 100px;
+   top: 35px;
+}
+
+.FWB h3 {
+   position: relative;
+   color: #4267B2;
+   font-size: small;
+   font-family: serif;
+   top: -45px;
+   left: 105px;
+}
+
+.Livestream {
+   position: relative;
+   background-color:white;
+   border-bottom: 1px solid lightgray;
+   width: 326px;
+   height: 100px;
+   top: 35px;
+}
+
+.Livestream h3 {
+   position: relative;
+   color: #4267B2;
+   font-size: small;
+   font-family: serif;
+   top: -45px;
+   left: 105px;
+}
+
+.app-photo {
+   position: relative;
+   background-color: #4267B2;
+   width: 95px;
+   height: 60px;
+   top: 10px;
+   left: 5px;
+}
+
+/* Fourth Left Column*/
+
+.column:nth-child(5) {
+   position: relative;
+   width: 328px;
+   height: 340px;
+   border: 1px solid lightgray;  
+   top: 50px;
+   left: -328px;
+   float: left;
+   
+}
+
+.Photos {
+   position: relative;
+   border-bottom: 1px solid slategrey;
+   background-color: whitesmoke;
+   width: 326px; 
+}
+
+
+.Photos button {
+   border: 1px solid whitesmoke;
+   color: #4267B2;
+   font-family: serif;
+}
+
+.box {
+   position: relative;
+   background-color:#4267B2 ;
+   height: 97px;
+   width: 97px;
+   border: 2px solid white;
+   display: table-cell;
+   top: 15px;
+   float: left;
+   
+}
+
+/* Second Right Column */
+
+
+.column:nth-child(6) {
+   position: relative;
+   width: 512px;
+   height: 182px;
+   border: 1px solid lightgray;
+   top: -635px;
+   float: right;
+}
+
+.profile-pic2 {
+   position: relative;
+   width: 50px;
+   height: 50px;
+   background-color: #4267B2;
+   top: 15px;
+   left: 15px;
+   border: 1px solid black;
+}
+
+.your-page-name  {
+   position: relative;
+   width: 300px;
+   height: 25px;
+   top: -25px;
+   left: 70px;
+   color: lightslategray;
+   font-family: serif;
+
+}
+
+.your-page-name button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color: #4267B2;
+   font-size: 12px;
+   font-weight: bolder;
+   font-family: serif;
+  }
+
+  .status {
+     padding: 10px;
+     font-weight: lighter;
+     font-family: serif;
+  }
+
+  .social-buttons2 {
+   position: relative;
+   width: 510px;
+   height: 30px;
+   background-color: whitesmoke;
+   top: -15px;
+   border-top: 1px solid grey;
+}
+
+.social-buttons2 button {
+   position: relative;
+   background-color: whitesmoke;
+   border: 1px solid whitesmoke;
+   color:#4267B2 ;
+   font-family: serif;
+   top: 5px;
+}
+
+/* Third Right Column*/
+
+.column:nth-child(7) {
+   position: relative;
+   width: 512px;
+   height: 372px;
+   border: 1px solid lightgray;
+   top: -625px;
+   float: right;
+}
+.profile-pic3 {
+   position: relative;
+   width: 50px;
+   height: 50px;
+   background-color: #4267B2;
+   top: 15px;
+   left: 15px;
+   border: 1px solid black;
+}
+
+.your-page-name2  {
+   position: relative;
+   width: 300px;
+   height: 25px;
+   top: -25px;
+   left: 70px;
+   color: lightslategray;
+   font-family: serif;
+
+}
+
+.your-page-name2 button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color: #4267B2;
+   font-size: 12px;
+   font-weight: bolder;
+   font-family: serif;
+  }
+
+  .cover-photo2 {
+   position: relative;
+   width: 500px;
+   height: 190px;
+   background-color:#4267B2;
+   left: 5px;
+}
+.event-name {
+   position: relative;
+   width: 300px;
+   height: 25px;
+   top: 5px;
+   left: 5px;
+}
+.event-name button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color: #4267B2;
+   font-size: 12px;
+   font-weight: bolder; 
+   font-family: serif;
+}
+
+.event-details {
+   position: relative;
+   top: -15px;
+   left: -30px;
+}
+
+.event-details li  {
+   list-style: none;
+   font-family: serif;
+   font-size: smaller;
+   color: slategrey;
+   
+}
+
+.join button {
+   position: relative;
+   top: -60px;
+   left: -15px;
+   float: right;
+}
+
+.social-buttons3 {
+   position: relative;
+   width: 510px;
+   height: 30px;
+   background-color: whitesmoke;
+   top: -13px;
+   border-top: 1px solid grey;
+}
+
+.social-buttons3 button {
+   position: relative;
+   background-color: whitesmoke;
+   border: 1px solid whitesmoke;
+   color:#4267B2 ;
+   font-family: serif;
+   top: 5px;
+}
+
+
+ /*Fourth Right Column*/
+
+
+.column:nth-child(8) {
+   position: relative;
+   width: 512px;
+   height: 182px;
+   border: 1px solid lightgray;
+   top: -615px;
+   float: right;
+}
+
+.profile-pic4 {
+   position: relative;
+   width: 50px;
+   height: 50px;
+   background-color: #4267B2;
+   top: 15px;
+   left: 15px;
+   border: 1px solid black;
+}
+
+.your-page-name3  {
+   position: relative;
+   width: 300px;
+   height: 25px;
+   top: -25px;
+   left: 70px;
+   color: lightslategray;
+   font-family: serif;
+
+}
+
+.your-page-name3 button {
+   position: relative;
+   background-color: white;
+   border: 1px solid white;
+   color: #4267B2;
+   font-size: 12px;
+   font-weight: bolder;
+   font-family: serif;
+  }
+
+  .status2 {
+     padding: 10px;
+     font-family: serif;
+  }
+
+  .social-buttons4 {
+   position: relative;
+   width: 510px;
+   height: 30px;
+   background-color: whitesmoke;
+   top: -13px;
+   border-top: 1px solid grey;
+}
+
+.social-buttons4 button {
+   position: relative;
+   background-color: whitesmoke;
+   border: 1px solid whitesmoke;
+   color:#4267B2 ;
+   font-family: serif;
+   top: 5px;
+}
